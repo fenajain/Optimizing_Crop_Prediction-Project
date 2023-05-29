@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 from opt import *
 import streamlit as st
 
-st.set_option('browser.gatherUsageStats', False)
-
 st.title("Crop Prediction System")
 df = pd.read_csv("CropData.csv")
 
